@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-contral {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 20px 0;
+}
+
+.form-contral label{
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.percent{
+    height: 30px;
+    width: 150px;
+}
+
+.percent-icon, .dollar-icon{
+    font-size: 25px;
+}
+
+.form-contral .percent-icon {
+    position: absolute;
+    bottom: -3px;
+    right: 50px;
+    
+}
+
+.amount {
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    right: 60px;
+    bottom: 2px;
+}
