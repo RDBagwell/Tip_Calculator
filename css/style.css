@@ -23,29 +23,29 @@ body{
 
 .form-contral label{
     margin-bottom: 10px;
-    font-size: 32px;
+    font-size: 18px;
 }
 
 .percent{
     height: 30px;
-    width: 150px;
+    width: 100px;
 }
 
 .percent-icon, .dollar-icon{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .form-contral .percent-icon {
     position: absolute;
-    bottom: -3px;
-    right: 50px;
+    bottom: 0px;
+    right: 9px;
     
 }
 
 .amount {
     height: 30px;
-    width: 150px;
+    width: 100px;
     position: absolute;
-    right: 60px;
-    bottom: 2px;
+    right: 16px;
+    bottom: 0;
 }
