@@ -19,6 +19,7 @@ body{
     padding: 30px;
     border: 1px solid crimson;
     border-radius: 4px;
+    box-shadow: 0 2px 18px 0px rgba(0, 0, 0, 0.93);
 }
 
 .form-contral {
