@@ -19,7 +19,7 @@ calculateBtn.addEventListener('click', e=>{
     <div class="tip">
         <p>Tip: $${data.tip.toFixed(2)}</p>
     </div>
-    <div class="total">
+    <div class="totalAmount">
         <p>Total: $${data.total.toFixed(2)}</p>
     </div>`;
 })

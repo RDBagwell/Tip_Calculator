@@ -11,7 +11,14 @@ body{
     flex-direction: column;
     font-family: 'Open Sans', sans-serif;
     align-items: center;
-    justify-content: center;
+}
+
+.container {
+    width: 300px;
+    background: papayawhip;
+    padding: 30px;
+    border: 1px solid crimson;
+    border-radius: 4px;
 }
 
 .form-contral {
@@ -19,33 +26,47 @@ body{
     flex-direction: column;
     position: relative;
     margin: 20px 0;
+    justify-content: center;
 }
 
 .form-contral label{
     margin-bottom: 10px;
     font-size: 18px;
+    text-align: center;
+    font-weight: 600;
 }
 
-.percent{
+.percent, .amount {
     height: 30px;
-    width: 100px;
+    width: 136px;
+    margin: 0 auto;
 }
 
 .percent-icon, .dollar-icon{
     font-size: 20px;
+    position: absolute;
 }
 
-.form-contral .percent-icon {
-    position: absolute;
-    bottom: 0px;
-    right: 9px;
-    
+.percent-icon{
+    bottom: 3px;
+    right: 30px;
 }
 
-.amount {
-    height: 30px;
-    width: 100px;
-    position: absolute;
-    right: 16px;
-    bottom: 0;
+.dollar-icon{
+    bottom: 3px;
+    left: 36px;
+}
+
+.calculate-btn {
+    width: 100%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.total {
+    border: 1px solid black;
+    background: white;
+    text-align: center;
+    margin: 10px;
+    border-radius: 3px;
 }
